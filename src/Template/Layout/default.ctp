@@ -54,7 +54,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     <?php
                     if($username){
      echo $this->Html->link('Logout', ['controller'=>'users', 'action'=>'logout'], array(
-        'class'=> 'btn btn-danger'
+        'class'=> 'btn'
           ));
                     }
                     

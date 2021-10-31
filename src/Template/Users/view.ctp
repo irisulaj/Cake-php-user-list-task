@@ -8,17 +8,24 @@
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Html->link(__('Edit User'), ['action' => 'edit', $user->id], array(
-			'class' => 'btn btn-warning'
+			'class' => 'btn btn-warning',
+            'style'=>'color:white;'
+
 		)) ?> </li>
         <li><?= $this->Form->postLink(__('Delete User'), ['action' => 'delete', $user->id], array(
-			'class' => 'btn btn-danger'
+			'class' => 'btn btn-danger',
+            'style'=>'color:white;'
+
 		), ['confirm' => __('Are you sure you want to delete # {0}?', $user->id)]) ?> </li>
         
         <li><?= $this->Html->link(__('List Users'), ['action' => 'index'], array(
-			'class' => 'btn btn-info'
+			'class' => 'btn btn-info',
+            'style'=>'color:white;'
+
 		)) ?> </li>
         <li><?= $this->Html->link(__('New User'), ['action' => 'add'], array(
-			'class' => 'btn btn-success'
+			'class' => 'btn btn-success',
+            'style'=>'color:white;'
 		)) ?> </li>
     </ul>
 </nav>
